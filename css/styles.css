@@ -736,11 +736,11 @@ a:active {
 }
 .challenge__slider .slick-arrow.slick-prev{
     left: 0;
-    background: url("/img/challenge/arrow-left.png") 0 0 / 100% no-repeat;
+    background: url("img/challenge/arrow-left.png") 0 0 / 100% no-repeat;
 }
 .challenge__slider .slick-arrow.slick-next{
     right: 88.5%;
-    background: url("/img/challenge/arrow-right.png") 0 0 / 100% no-repeat;
+    background: url("img/challenge/arrow-right.png") 0 0 / 100% no-repeat;
 }
 
 /*________COURSES______________________________________________________________________________________*/
