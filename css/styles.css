@@ -432,6 +432,16 @@ a:active {
     display: flex;
     align-items: end;
     height: 574px;
+    position: relative;
+}
+.at-home_body__circle{
+    position: absolute;
+    width: 184px;
+    height: 174px;
+    left: -63px;
+    top: -31px;
+    background: rgba(241, 212, 75, 0.3);
+    border-radius: 50%;
 }
 
 .at-home__column {
