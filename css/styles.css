@@ -21,13 +21,15 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: inherit;
     font-size: inherit;
 }
+
 html,body {
-    height: 100%;
-    line-height: 1;
-    font-size: 14px;
-    color: rgba(17, 39, 52, 0.7);
-    font-family: 'Open Sans', serif;
+
+    font-family: 'Open Sans',serif;
+    font-style: normal;
     font-weight: 400;
+    font-size: 18px;
+    line-height: 138%;
+    color: rgba(17, 39, 52, 0.7);
 }
 .wrapper {
     min-height: 100%;
@@ -154,6 +156,7 @@ a:active {
     display: flex;
     align-items: center;
     height: 31px;
+    cursor: pointer;
 }
 .tools__icon-search {
     color: rgba(17, 39, 52, 1);
@@ -432,6 +435,7 @@ a:active {
     display: flex;
     align-items: end;
     height: 574px;
+    width: 1140px;
 }
 
 .at-home__column {
@@ -442,7 +446,7 @@ a:active {
 }
 
 .at-home__item {
-
+    position: relative;
 }
 
 .item-at-home__image {
@@ -583,4 +587,146 @@ a:active {
     font-size: 18px;
     line-height: 138%;
     color: rgba(17, 39, 52, 0.7);
+}
+.image-right__play-btn {
+    cursor: pointer;
+}
+.play-btn{
+    position: absolute;
+    width: 110px;
+    height: auto;
+    top: 26%;
+    left: 40%;
+}
+.image-right__arrow-right {
+    position: absolute;
+    top: 39%;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 15%;
+    background-color: rgba(241, 212, 75, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.arrow-right {
+    color: #FFFFFF;
+    width: 100%;
+    height: 1.5rem;
+}
+
+/*____CHALLENGE_______________________________________________________________*/
+.page__challenge {
+
+}
+.challenge {
+
+}
+.challenge__container{
+    flex-direction: column;
+}
+.challenge__body {
+    display: flex;
+    width: 100%;
+    margin-left: 16px;
+}
+.challenge-body__description{
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 75px;
+}
+.challenge-body__title{
+    font-family: 'Crimson Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 127%;
+    color: #112734;
+    margin-bottom: 15px;
+}
+.challenge-body__subtitle{
+}
+.challenge-body__description::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 99px;
+    left: 0;
+    top: 18px;
+    background: #F1D44B;
+}
+/*SLIDER___________________________________________________*/
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    margin: 0 -31px;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{
+    margin: 0 31px;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+.challenge__slider_container {
+    min-width: 0;
+    max-width: 1140px;
+}
+.challenge__slider {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+}
+.challenge__slider .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    font-size: 0;
+    width: 66px;
+    height: 66px;
+}
+.challenge__slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url("/img/challenge/arrow-left.png") 0 0 / 100% no-repeat;
+}
+.challenge__slider .slick-arrow.slick-next{
+    right: 88.5%;
+    background: url("/img/challenge/arrow-right.png") 0 0 / 100% no-repeat;
+}
+.slider__item {
+
 }

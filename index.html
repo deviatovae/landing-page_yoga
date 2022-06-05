@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Title</title>
 </head>
 <body>
@@ -158,6 +159,12 @@
                                 <div class="image-right__image">
                                     <img class="image-right__image_img" src="img/at-home/image-right.png" alt="yoga-on-the-go">
                                 </div>
+                                <div class="image-right__play-btn">
+                                    <img class="play-btn" src="img/at-home/Vector.svg" alt="play button">
+                                </div>
+                                <div class="image-right__arrow-right">
+                                    <span class="iconify arrow-right" data-icon="ant-design:arrow-right-outlined"></span>
+                                </div>
                                 <div class="sub-column__container">
                                     <div class="sub-column_body">
                                         <div class="sub-column__left">
@@ -192,8 +199,33 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="page__challenge challenge">
+                <div class="challenge__container _container">
+                    <div class="challenge__body">
+                        <div class="challenge-body__description">
+                            <h1 class="challenge-body__title">Challenge <span class="green">Yourself</span></h1>
+                            <h3 class="challenge-body___subtitle">Take your practice to the next level with our on-going yoga challenges</h3>
+                        </div>
+                    </div>
+                    <div class="challenge__slider_container _container">
+                        <div class="challenge__slider">
+                            <div class="slider__item">
+                                <img src="img/challenge/yoga-GettyImages-846236570.png" alt="downward-dog">
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/challenge/yoga-GettyImages-846236570%20(1).png" alt="warrior">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/slick.min.js"></script>
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
