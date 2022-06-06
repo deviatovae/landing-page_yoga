@@ -19,4 +19,14 @@ $(document).ready(function (){
         draggable: true,
         slidesToScroll: 1,
     });
+    $('.practice-w-confidence__slider').slick({
+        arrows: true,
+        adaptiveHeight: true,
+        slidesToShow: 4,
+        variableWidth: true,
+        infinite: true,
+        speed: 500,
+        draggable: true,
+        slidesToScroll: 1,
+    });
 })
